@@ -6,8 +6,8 @@ const Document = () => {
   return (
     <div>
       <Header>
-        <div className="flex ">
-
+        <div className="flex w-fit items-center justiry-center gap-2">
+            <p className="document-title">Document Title</p>
         </div>
       </Header>
       <Editor />
