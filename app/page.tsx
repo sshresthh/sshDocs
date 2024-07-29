@@ -5,7 +5,6 @@ export default function Home() {
     <main className="">
       <div>
         <h1>sshDocs</h1>
-        <Button asChild className="bg-red-500 hover:bg-blue-500">Link</Button>
       </div>
     </main>
   );
