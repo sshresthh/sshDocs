@@ -4,6 +4,7 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Metadata } from "next";
+import { dark } from "@clerk/themes";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -24,7 +25,7 @@ export default function RootLayout({
     <ClerkProvider
       appearance={{
         baseTheme: dark,
-
+        variables: {colorPrimary:'#3371FF'}
       }}
     >
       <html lang="en" suppressHydrationWarning>
